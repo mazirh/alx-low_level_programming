@@ -2,7 +2,7 @@
 
 /**
  *void print_alphabet(void);
- *Printing alphabet in lowercase;
+ *Print: alphabet in lowercase;
  *Return on 0
  */
 
