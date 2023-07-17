@@ -1,12 +1,12 @@
 #include "main.h"
-#include <strdlib.h>
+#include <stdlib.h>
 
 /**
  *creating a function that creats an array of chars and initializes it with a specific char;
  *prototype:char *create_array(unsigned int size, char c);
  *return: NULL if the size is 0;
  */
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
 	char *str;
 	unsigned int i;
