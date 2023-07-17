@@ -2,10 +2,13 @@
 #include <stdlib.h>
 
 /**
- *creating a function that creats an array of chars and initializes it with a specific char;
- *prototype:char *create_array(unsigned int size, char c);
- *return: NULL if the size is 0;
- */
+ *create_array - create an array of size size and assign c
+ *@size: size of array
+ *@c: char to assign
+ *Description: create an array of size size and assign char c
+ *return a pointer id size 0 or  NULL
+ *
+ **/
 char *create_array(unsigned int size, char c)
 {
 	char *str;
